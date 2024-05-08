@@ -12,11 +12,17 @@ const Home = () => {
       <div className="home__content">
         <div className="home__data">
           <h1 className="home__title">
-            <span>I'm Dakshita Jain</span> Web Developer
+            <span>I'm Dakshita Jain</span> <span style={{ color: "white" , whiteSpace: "nowrap"}}>MERN Stack Developer</span>
           </h1>
 
           <p className="home__description">
-          I am a web developer with a passion for creating engaging and user-friendly websites. I have a bachelor's degree in computer science and a portfolio of projects that showcase my skills in HTML, CSS, JavaScript, and React. I am proficient in using various web development tools and frameworks, such as Bootstrap, TailwindCss and Nodejs. I am eager to learn new technologies and best practices to improve my web development skills. I am also a team player who can communicate effectively and collaborate with other developers, designers, and clients. I am looking for an opportunity to join a dynamic and innovative web development team where I can apply my knowledge and creativity to create amazing web experiences.
+            As a dedicated MERN stack developer, I've recently completed an
+            internship where I honed my skills in building robust web
+            applications. My proficiency includes JavaScript, React.js, Node.js,
+            Express.js, and MongoDB, allowing me to create efficient and
+            scalable solutions. Now, I'm excited to leverage my experience and
+            contribute effectively to a dynamic team in a full-time role. Ready
+            to embark on the next chapter of my career journey.
           </p>
 
           <Link to="/about" className="button">

@@ -22,7 +22,7 @@ const Contact = () => {
 
       <div className="contact__container container grid">
         <div className="contact__data">
-          <h3 className="contact__title">Don't be Shy !</h3>
+          {/* <h3 className="contact__title">Don't be Shy !</h3> */}
 
           <p className="contact__description">
           Thank you for visiting my portfolio website. I hope you enjoyed browsing through my projects and skills. I am always looking for feedback and opportunities to improve my work. If you have any comments or questions, please feel free to contact me via email or LinkedIn. I would love to hear from you and discuss how we can collaborate on future projects.

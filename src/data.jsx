@@ -19,7 +19,8 @@ import Work1 from './assets/speech-to-text.png';
 import Work2 from'./assets/movix.png';
 import Work3 from './assets/weather.png';
 import Work4 from './assets/a-clock.png';
-import Work5 from './assets/acme-rockets.png';
+import Work5 from './assets/nexMarket.png';
+import Work6 from './assets/convoConnect.png';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -77,42 +78,36 @@ export const personalInfo = [
 
   {
     id: 3,
-    title: 'Age : ',
-    description: '20 Years',
-  },
-
-  {
-    id: 4,
     title: 'Nationality : ',
     description: 'Indian',
   },
 
   {
-    id: 5,
-    title: 'Web developer : ',
+    id: 4,
+    title: 'MERN Stack developer : ',
     description: 'Available',
   },
 
   {
-    id: 6,
+    id: 5,
     title: 'Address : ',
     description: 'Gwalior',
   },
 
   {
-    id: 7,
+    id: 6,
     title: 'Phone : ',
-    description: '+917089645285',
+    description: '+91 7089645285',
   },
 
   {
-    id: 8,
+    id: 7,
     title: 'Email : ',
     description: 'dakshitaj63@gmail.com',
   },
 
   {
-    id: 10,
+    id: 8,
     title: 'Langages : ',
     description: 'Hindi, English',
   },
@@ -178,47 +173,68 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '90',
+    percentage: '100',
   },
 
   {
     id: 2,
     title: 'Javascript',
-    percentage: '85',
+    percentage: '90',
   },
 
   {
     id: 3,
-    title: 'Css',
-    percentage: '90',
+    title: 'CSS',
+    percentage: '95',
   },
 
   {
     id: 4,
     title: 'MongoDB',
-    percentage: '50',
+    percentage: '70',
   },
 
   {
     id: 5,
     title: 'ExpressJs',
-    percentage: '50',
+    percentage: '80',
   },
 
   {
     id: 6,
     title: 'ReactJs',
-    percentage: '50',
+    percentage: '90',
   },
 
   {
     id: 7,
     title: 'NodeJs',
-    percentage: '50',
+    percentage: '80',
   },
-
+  
+  
   {
     id: 8,
+    title: 'Docker',
+    percentage: '70',
+  },
+  {
+    id: 9,
+    title: 'SCSS',
+    percentage: '80',
+  },
+  {
+    id: 10,
+    title: 'TailwindCSS',
+    percentage: '70',
+  },
+  {
+    id: 10,
+    title: 'Bootstrap',
+    percentage: '70',
+  },
+  {
+    id: 9,
     title: 'C++',
     percentage: '95',
   },
@@ -227,8 +243,8 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
-    img: Work1,
-    title: 'Speech to Text Convertor',
+    img: Work5,
+    title: 'NexMarket',
     details: [
       {
         icon: <FiFileText />,
@@ -243,18 +259,44 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React, Javascript',
+        desc: 'ReactJs, NodeJs, ExpressJs, MongoDB, TailwindCSS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'https://text-speech-convertor.vercel.app/',
+        desc: 'https://nex-market-frontend.vercel.app/',
       },
     ],
   },
-
   {
     id: 2,
+    img: Work6,
+    title: 'ConvoConnect',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Website',
+      },
+      // {
+      //   icon: <FiUser />,
+      //   title: 'Client : ',
+      //   desc: 'Dribble',
+      // },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'ReactJs, NodeJs, ExpressJs, MongoDB',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://github.com/DakshitaJain0212/ConvoConnect-client',
+      },
+    ],
+  },
+  {
+    id: 3,
     img: Work2,
     title: 'Movix',
     details: [
@@ -280,9 +322,30 @@ export const portfolio = [
       },
     ],
   },
-
   {
-    id: 3,
+    id: 4,
+    img: Work1,
+    title: 'Speech to Text Convertor',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Website',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React, Javascript',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://text-speech-convertor.vercel.app/',
+      },
+    ],
+  },
+  {
+    id: 5,
     img: Work3,
     title: 'Weather Forecaster',
     details: [
@@ -310,7 +373,7 @@ export const portfolio = [
   },
 
   {
-    id: 4,
+    id: 6,
     img: Work4,
     title: 'A-Clock',
     details: [
@@ -333,30 +396,6 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: 'Preview : ',
         desc: 'https://a-clock-tau.vercel.app/',
-      },
-    ],
-  },
-
-  {
-    id: 5,
-    img: Work5,
-    title: 'Acme Rockets',
-    details: [
-      {
-        title: 'Project : ',
-        desc: 'Landing Page',
-      },
-      // {
-      //   title: 'Client : ',
-      //   desc: 'Dribble',
-      // },
-      {
-        title: 'Language : ',
-        desc: 'React JS, TailwindCSS',
-      },
-      {
-        title: 'Preview : ',
-        desc: 'https://acme-rockets-flame.vercel.app/',
       },
     ],
   },
