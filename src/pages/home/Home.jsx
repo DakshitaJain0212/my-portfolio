@@ -12,7 +12,8 @@ const Home = () => {
       <div className="home__content">
         <div className="home__data">
           <h1 className="home__title">
-            <span>I'm Dakshita Jain</span> <span style={{ color: "white" , whiteSpace: "nowrap"}}>MERN Stack Developer</span>
+            <span>I'm Dakshita Jain</span>
+            <p style={{whiteSpace: "nowrap"}}> MERN Stack Developer</p>
           </h1>
 
           <p className="home__description">
